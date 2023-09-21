@@ -1,0 +1,28 @@
+:root {
+  --main-color: rgb(179, 142, 60);
+}
+.button-social,
+#new-quote {
+  background-color: var(--main-color);
+  color: white;
+}
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+body {
+  position: relative;
+  height: 100vh;
+  background-color: var(--main-color);
+}
+#text,
+#author {
+  color: var(--main-color);
+}
+#quote-box {
+  padding: 5vh;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
